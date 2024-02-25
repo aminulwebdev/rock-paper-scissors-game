@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo">
+        <img src="./images/mak_logo.png" alt="" class="fdfsds" />
+      </div>
+      <div>
+        <h1>Rock Paper Scissors</h1>
+      </div>
+    </div>
+    <div class="choices">
+      <div class="choice" id="rock">
+        <img src="./images/rock.png" class="choice_img" />
+      </div>
+      <div class="choice" id="paper">
+        <img src="./images/paper.png" class="choice_img" />
+      </div>
+      <div class="choice" id="scissors">
+        <img src="./images/scissors.png" class="choice_img" />
+      </div>
+    </div>
+
+    <div class="score-board">
+      <div class="score">
+        <p id="user-score">0</p>
+        <p>You</p>
+      </div>
+      <div class="score">
+        <p id="comp-score">0</p>
+        <p>Computer</p>
+      </div>
+      <div class="score">
+        <p id="draw-score">0</p>
+        <p>Draw</p>
+      </div>
+    </div>
+
+    <div class="msg-container">
+      <div class="selection_show">
+        <p id="msg_user">Your Selection</p>
+        <p id="msg_com">Computer Selection</p>
+      </div>
+      <p id="msg"></p>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
